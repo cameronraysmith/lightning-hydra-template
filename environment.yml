@@ -1,0 +1,28 @@
+name: lht
+channels:
+  - bioconda
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pytorch-gpu
+  - torchvision
+  - pytorch-lightning
+  - torchmetrics
+  - hydra-core
+  - pip
+  - pre-commit
+  - rich
+  - pytest
+  - mlflow
+  - dvc
+  - pip:
+    - hydra-colorlog
+    - hydra-optuna-sweeper
+    - pyrootutils     
+
+# --------- loggers --------- #
+# wandb
+# neptune-client
+# mlflow
+# comet-ml
